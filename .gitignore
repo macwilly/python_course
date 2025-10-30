@@ -71,6 +71,15 @@ instance/
 # Sphinx documentation
 docs/_build/
 
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VS Code
+.vscode/
+
 # PyBuilder
 .pybuilder/
 target/
