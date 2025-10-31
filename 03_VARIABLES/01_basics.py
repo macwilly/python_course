@@ -4,4 +4,7 @@
 # Python variables are case-sensitive
 # Python variables can contain a-z, A-Z, #, and _
 
-
+my_string = "Hello World"
+my_int = 123
+my_float = 12.34
+my_bool = True
