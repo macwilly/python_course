@@ -7,3 +7,16 @@
 #   Tuples         : Ordered, IMMUTABLE collections ( (1, 2, 3))
 #   Sets           : Unordered collections of unique elements ({1, 2, 3})
 #   Dictionaries   : Key-value pairs this allows for mixed pairs ({"name": "Allice", "age": 25})
+
+
+age = 35
+
+name = "Mackenzie"
+
+favorite_pi = 3.14
+
+is_tall = True
+
+print(age)
+
+print(type(age))
