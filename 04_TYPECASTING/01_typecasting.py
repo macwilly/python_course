@@ -23,7 +23,7 @@ print(int_a)
 print(type(float_a))
 
 bool_a = bool(int_a)
-print(int_a)
+print(bool_a)
 print(type(bool_a))
 
 float_c = 3.14159
