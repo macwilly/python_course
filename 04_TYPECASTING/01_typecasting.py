@@ -1,0 +1,1 @@
+# Typecasting  is the processing of changing one object type into another. Such as an int into a string
