@@ -13,3 +13,13 @@ if string_a == string_b:
     print("String is equal to string")
 else:
     print("String is not equal to string")
+
+# Logical Operator
+# Logical operators are the words, not && ||
+# Help us operate on two booleans
+# NOT will negate the operator
+c = True
+d = False
+print(c and d)
+print(c or d)
+print(not c)
