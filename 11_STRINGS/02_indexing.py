@@ -6,3 +6,9 @@ print(name.__len__())
 print(name[name.__len__()-1])
 
 
+# Index of will get the first instance of a character in a string
+char = 'e'
+if char in name:
+    print(name.index(char))
+else:
+    print(f"'{char}' not found in '{name}'")
