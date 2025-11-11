@@ -8,3 +8,6 @@ name = "MackenzieWillard"
 print(name[3:5])
 print(name[3:-1])
 print(name[::-1])
+
+# Step the step works off of n -1
+print(name[::2])
