@@ -1,4 +1,5 @@
 # string are immutability
+from operator import contains
 
 name = "mackenzie"
 print(name)
@@ -14,11 +15,11 @@ print(a)
 
 # Strip will remove the white space at the end/start/both of string
 
-lotsOfWhiteSpace = "      White  Space      "
-print(lotsOfWhiteSpace)
-print(lotsOfWhiteSpace.strip())
-print(lotsOfWhiteSpace.lstrip())
-print(lotsOfWhiteSpace.rstrip())
+lots_of_white_space = "      White  Space      "
+print(lots_of_white_space)
+print(lots_of_white_space.strip())
+print(lots_of_white_space.lstrip())
+print(lots_of_white_space.rstrip())
 
 # the find function will give the index of a character or group of characters
 
@@ -28,8 +29,17 @@ print(text.find("is"))
 
 # replace
 print(text.replace("is", "was"))
-fruitString = "Pear,Orange,Kiwi"
-print(fruitString.split(","))
+fruit_string = "Pear,Orange,Kiwi"
+print(fruit_string.split(","))
 
-fruitList = ["apple", "banana", "cherry"]
-print(", ".join(fruitList))
+fruit_list = ["apple", "banana", "cherry"]
+print(", ".join(fruit_list))
+
+print(contains(text,"python"))
+test_string =  "Python123"
+
+print(test_string.isalpha())
+print(test_string.isnumeric())
+print(test_string.isdigit())
+print(test_string.isalnum())
+print(test_string.isspace())
