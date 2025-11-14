@@ -19,3 +19,17 @@ print(lotsOfWhiteSpace)
 print(lotsOfWhiteSpace.strip())
 print(lotsOfWhiteSpace.lstrip())
 print(lotsOfWhiteSpace.rstrip())
+
+# the find function will give the index of a character or group of characters
+
+text = "python is fun"
+
+print(text.find("is"))
+
+# replace
+print(text.replace("is", "was"))
+fruitString = "Pear,Orange,Kiwi"
+print(fruitString.split(","))
+
+fruitList = ["apple", "banana", "cherry"]
+print(", ".join(fruitList))
