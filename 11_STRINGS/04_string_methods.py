@@ -12,3 +12,10 @@ print(name)
 a = len(name)
 print(a)
 
+# Strip will remove the white space at the end/start/both of string
+
+lotsOfWhiteSpace = "      White  Space      "
+print(lotsOfWhiteSpace)
+print(lotsOfWhiteSpace.strip())
+print(lotsOfWhiteSpace.lstrip())
+print(lotsOfWhiteSpace.rstrip())
