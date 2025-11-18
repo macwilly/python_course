@@ -9,7 +9,7 @@ print(text[:7])
 print(text[len(text)-6:])
 print(text[-6:])
 # Print every second character from the string
-print(text[::3])
+print(text[::2])
 
 # Print the reverse of the string
 print(text[::-1])
