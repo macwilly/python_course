@@ -1,0 +1,4 @@
+import my_utils
+
+print(my_utils.is_even(5))
+print(my_utils.is_even(6))
