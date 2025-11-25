@@ -1,4 +1,5 @@
 # Tuples are order but immutable
+# Tuples are faster than lists because they are immutable
 
 my_tuple = ("a", "b", "c")
 my_tuple2 = (3,5,888)
