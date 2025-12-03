@@ -1,4 +1,4 @@
-# dunder = duble under score __
+# dunder = double underscore __
 class Employee:
     company = "HP"
 
