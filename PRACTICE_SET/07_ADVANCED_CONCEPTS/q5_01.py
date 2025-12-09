@@ -1,15 +1,18 @@
-while True:
-    user_number = 0
-    try:
-        user_number = int(input("Enter a number: "))
-    except ValueError:
-        print("Input is not a number.")
-    try:
-        10 / user_number
-    except ZeroDivisionError:
-        print("You can't divide by zero.")
+class NegativeNumberError(Exception):
+    pass
+
+
+try:
+    user_number = int(input("Enter a number: "))
 
     if user_number < 0:
+        raise NegativeNumberError("You can't use a negative number.")
+    result = 10 / user_number
+    print("The result is: ", result)
 
-        except NegativeNumberError:
-            raise ("You can't use a negative number.")
+except ValueError:
+    print("Input is not a number.")
+except ZeroDivisionError:
+    print("You can't divide by zero.")
+except NegativeNumberError as e:
+    print(e)
