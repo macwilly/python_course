@@ -14,6 +14,8 @@ try:
     file = open("../resources/mac.txt", "rt")
     content = file.read()
     print(content)
-finally:
     file.close()
+except FileNotFoundError:
+    print("File not found")
+
 
