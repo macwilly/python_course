@@ -1,0 +1,3 @@
+Hey this is Mac and I like Python
+I am a full stack developer and I like writing code
+I have worked with PHP, JSP, and am now learning Python.
